@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.osbitools.com/xsd/wp.xsd" ver_max="1" ver_min="0" descr="Line chart alone for embedded use" inc="2" title="LX_AMERICA_POPULATION" charset="utf-8" copyright="2016 IvaLab Inc.">
+	<panels>
+		<panel>
+			<wwg_chart uid="2" idx="0" class_name="com.osbitools.charts.jqplot.line" engine="jqplot">
+				<props>
+					<prop name="id" value="com_osbitools_charts_jqplot_line_2" />
+					<prop name="size_width" value="500" />
+					<prop name="size_height" value="300" />
+					<prop name="ds" value="world_population.world_population_1950_2013" />
+					<prop name="title" value="LX_WORLD_POPULATION_CHANGE" />
+					<prop name="is_animate" value="true" />
+					<prop name="x_axis" value="YEAR" />
+					<prop name="is_show_point_labels" value="true" />
+					<prop name="x_axis_fmt" value="%Y" />
+					<prop name="x_axis_label" value="LX_YEAR" />
+					<prop name="y_axis_fmt" value="%.1f" />
+					<prop name="y_axis_label" value="LX_POPULATION_BSHORT" />
+				</props>
+				<prop_groups>
+					<prop_group name="series">
+						<props>
+							<prop name="y_axis" value="POPULATION_BSHORT" />
+						</props>
+					</prop_group>
+				</prop_groups>
+			</wwg_chart>
+		</panel>
+	</panels>
+</wp>

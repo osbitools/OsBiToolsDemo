@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ds xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.osbitools.com/xsd/ds.xsd" ver_max="1" ver_min="0" descr="undefined">
+	<ex_columns>
+		<calc>
+			<column name="POPULATION_BSHORT" java_type="java.lang.Double" stop_on_error="true" error_value="true">(double)(@{POPULATION}/1000000000d)</column>
+		</calc>
+	</ex_columns>
+	<static_data>
+		<columns>
+			<column name="YEAR" java_type="com.osbitools.util.Date" />
+			<column name="POPULATION" java_type="java.lang.Long" />
+		</columns>
+		<static_rows>
+			<row>
+				<cell name="YEAR" value="1950-01-01" />
+				<cell name="POPULATION" value="2525779000" />
+			</row>
+			<row>
+				<cell name="YEAR" value="1960-01-01" />
+				<cell name="POPULATION" value="3026003000" />
+			</row>
+			<row>
+				<cell name="YEAR" value="1970-01-01" />
+				<cell name="POPULATION" value="3691173000" />
+			</row>
+			<row>
+				<cell name="YEAR" value="1980-01-01" />
+				<cell name="POPULATION" value="4449049000" />
+			</row>
+			<row>
+				<cell name="YEAR" value="1990-01-01" />
+				<cell name="POPULATION" value="5320817000" />
+			</row>
+			<row>
+				<cell name="YEAR" value="2000-01-01" />
+				<cell name="POPULATION" value="6127700000" />
+			</row>
+			<row>
+				<cell name="YEAR" value="2010-01-01" />
+				<cell name="POPULATION" value="6916183000" />
+			</row>
+			<row>
+				<cell name="YEAR" value="2013-01-01" />
+				<cell name="POPULATION" value="7162119000" />
+			</row>
+		</static_rows>
+	</static_data>
+</ds>

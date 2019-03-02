@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.osbitools.com/xsd/wp.xsd" ver_max="1" ver_min="0" descr="Data Table only with meteorological data" inc="1" title="LX_5YEAR_MEAN" charset="utf-8" copyright="2016 IvaLab Inc.">
+	<panels>
+		<panel>
+			<wwg_chart uid="1" idx="0" class_name="com.osbitools.data_grid.data_tables" engine="data_tables">
+				<props>
+					<prop name="id" value="com_osbitools_data_grid_data_tables_1" />
+					<prop name="size_width" value="400" />
+					<prop name="size_height" value="400" />
+					<prop name="ds" value="earth_temperature.global_air" />
+					<prop name="title" value="LX_EARTH_TEMP_METEO" />
+					<prop name="is_length_change" value="true" />
+				</props>
+			</wwg_chart>
+		</panel>
+	</panels>
+</wp>

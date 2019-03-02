@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.osbitools.com/xsd/wp.xsd" ver_max="1" ver_min="0" descr="Join data grid with raw data and line chart" inc="8" title="LX_EARTH_TEMP_METEO" charset="utf-8" copyright="2016 IvaLab Inc.">
+	<panels>
+		<panel>
+			<wwg_cont uid="4" idx="0" class_name="com.osbitools.containers.tab_box">
+				<props>
+					<prop name="id" value="com_osbitools_containers_tab_box_4" />
+					<prop name="header_title" value="LX_RAW_DATA" />
+					<prop name="header_icon" value="earth_thermometer.png" />
+				</props>
+				<wwg_list>
+					<wwg_chart uid="5" idx="0" class_name="com.osbitools.data_grid.data_tables" engine="data_tables">
+						<props>
+							<prop name="id" value="com_osbitools_data_grid_data_tables_5" />
+							<prop name="size_width" value="500" />
+							<prop name="size_height" value="400" />
+							<prop name="ds" value="earth_temperature.global_air" />
+						</props>
+					</wwg_chart>
+				</wwg_list>
+			</wwg_cont>
+			<wwg_cont uid="6" idx="1" class_name="com.osbitools.containers.tab_box">
+				<props>
+					<prop name="id" value="com_osbitools_containers_tab_box_6" />
+					<prop name="header_title" value="LX_EARTH_TEMP_HEADER" />
+					<prop name="header_icon" value="line.png" />
+				</props>
+				<wwg_list>
+					<wwg_chart uid="8" idx="0" class_name="com.osbitools.charts.jqplot.line" engine="jqplot">
+						<props>
+							<prop name="id" value="com_osbitools_charts_jqplot_line_8" />
+							<prop name="size_width" value="500" />
+							<prop name="size_height" value="400" />
+							<prop name="ds" value="earth_temperature.global_air" />
+							<prop name="is_animate" value="true" />
+							<prop name="x_axis" value="YEAR" />
+							<prop name="x_axis_fmt" value="%Y" />
+							<prop name="x_axis_label" value="LX_YEAR" />
+							<prop name="highlighter_enabled" value="true" />
+							<prop name="highlighter_text" value="" />
+						</props>
+						<prop_groups>
+							<prop_group name="series">
+								<props>
+									<prop name="label" value="LX_ANNUAL_MEAN" />
+									<prop name="y_axis" value="ANNUAL_MEAN" />
+								</props>
+								<props>
+									<prop name="label" value="LX_5YEAR_MEAN" />
+									<prop name="y_axis" value="5YEAR_MEAN" />
+								</props>
+							</prop_group>
+						</prop_groups>
+					</wwg_chart>
+				</wwg_list>
+			</wwg_cont>
+		</panel>
+	</panels>
+</wp>

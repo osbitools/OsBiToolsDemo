@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ds xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.osbitools.com/xsd/ds.xsd" ver_max="1" ver_min="0" descr="Apple historical data from 25-Mar-15 to 21-Mar-16">
+	<filter>(new com.osbitools.util.Date(&quot;2016-01-01&quot;)).before(@{DATE}) &amp;&amp;
+        (new com.osbitools.util.Date(&quot;2016-01-31&quot;)).after(@{DATE})</filter>
+	<ex_columns>
+		<calc>
+			<column name="VOLUME_MSHORT" java_type="java.lang.Double" stop_on_error="true" error_value="0">(double)(@{VOLUME}/1000000d)</column>
+		</calc>
+	</ex_columns>
+	<csv_data file_name="aapl.csv">
+		<columns>
+			<column name="DATE" java_type="com.osbitools.util.Date" on_error="1970-01-01" />
+			<column name="OHLC_OPEN" java_type="java.lang.Float" on_error="0" />
+			<column name="OHLC_HIGH" java_type="java.lang.Float" on_error="0" />
+			<column name="OHLC_LOW" java_type="java.lang.Float" on_error="0" />
+			<column name="OHLC_CLOSE" java_type="java.lang.Float" on_error="0" />
+			<column name="VOLUME" java_type="java.lang.Double" on_error="0" />
+			<column name="5D_MAVG" java_type="java.lang.Float" on_error="0" />
+			<column name="10D_MAVG" java_type="java.lang.Float" on_error="0" />
+		</columns>
+	</csv_data>
+</ds>

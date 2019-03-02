@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ds xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.osbitools.com/xsd/ds.xsd" ver_max="1" ver_min="0" descr="Global annual-mean surface air temperature change with the base period 1951-1980">
+	<csv_data file_name="EarthTemperature.csv">
+		<columns>
+			<column name="YEAR" java_type="com.osbitools.util.Date" on_error="1970-01-01" />
+			<column name="ANNUAL_MEAN" java_type="java.lang.Float" on_error="0" />
+			<column name="5YEAR_MEAN" java_type="java.lang.Float" on_error="0" />
+		</columns>
+	</csv_data>
+</ds>

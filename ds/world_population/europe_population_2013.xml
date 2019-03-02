@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ds xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.osbitools.com/xsd/ds.xsd" ver_max="1" ver_min="0" descr="undefined">
+	<ex_columns>
+		<calc>
+			<column name="POPULATION_MSHORT" java_type="java.lang.Double" stop_on_error="true" error_value="0">(double)(@{POPULATION}/1000000d)</column>
+		</calc>
+	</ex_columns>
+	<lang_map>
+		<column name="REGION" />
+	</lang_map>
+	<static_data>
+		<columns>
+			<column name="REGION" java_type="java.lang.String" />
+			<column name="POPULATION" java_type="java.lang.Long" />
+		</columns>
+		<static_rows>
+			<row>
+				<cell name="REGION" value="LL_EASTERN_EUROPE" />
+				<cell name="POPULATION" value="294162000" />
+			</row>
+			<row>
+				<cell name="REGION" value="LL_NORTHERN_EUROPE" />
+				<cell name="POPULATION" value="100404000" />
+			</row>
+			<row>
+				<cell name="REGION" value="LL_SOUTHERN_EUROPE" />
+				<cell name="POPULATION" value="155827000" />
+			</row>
+			<row>
+				<cell name="REGION" value="LL_WESTERN_EUROPE" />
+				<cell name="POPULATION" value="192060000" />
+			</row>
+		</static_rows>
+	</static_data>
+</ds>

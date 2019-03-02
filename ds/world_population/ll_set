@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ll_set xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.osbitools.com/xsd/ll_set.xsd" ver_max="1" ver_min="0" lang_list="en,fr,ru">
+
+	<lang_label id="LL_AFRICA">
+		<ll_def lang="en" value="Africa" />
+		<ll_def lang="fr" value="Afrique" />
+		<ll_def lang="ru" value="Африка" />
+	</lang_label>
+	<lang_label id="LL_ANTARTICA">
+		<ll_def lang="en" value="Antartica" />
+		<ll_def lang="fr" value="Antarctique" />
+		<ll_def lang="ru" value="Антарктика" />
+	</lang_label>
+	<lang_label id="LL_ASIA">
+		<ll_def lang="en" value="Asia" />
+		<ll_def lang="fr" value="Asya" />
+		<ll_def lang="ru" value="Азия" />
+	</lang_label>
+	<lang_label id="LL_AUSTRALIA">
+		<ll_def lang="en" value="Australia" />
+		<ll_def lang="fr" value="Austral" />
+		<ll_def lang="ru" value="Австралия" />
+	</lang_label>
+	<lang_label id="LL_CARIBBEAN">
+		<ll_def lang="en" value="Caribbean" />
+		<ll_def lang="fr" value="Karibbean" />
+		<ll_def lang="ru" value="Карибы" />
+	</lang_label>
+	<lang_label id="LL_CENTRAL_AMERICA">
+		<ll_def lang="en" value="Central America" />
+		<ll_def lang="fr" value="Amérique Centrale" />
+		<ll_def lang="ru" value="Центральная Америка" />
+	</lang_label>
+	<lang_label id="LL_EASTERN_EUROPE">
+		<ll_def lang="en" value="Eastern Europe" />
+		<ll_def lang="fr" value="Estern Europa" />
+		<ll_def lang="ru" value="Восточная Европа" />
+	</lang_label>
+	<lang_label id="LL_EUROPE">
+		<ll_def lang="en" value="Europe" />
+		<ll_def lang="fr" value="Europa" />
+		<ll_def lang="ru" value="Европа" />
+	</lang_label>
+	<lang_label id="LL_NORTHERN_AMERICA">
+		<ll_def lang="en" value="Northern America" />
+		<ll_def lang="fr" value="Amérique du Nord" />
+		<ll_def lang="ru" value="Северная Америка" />
+	</lang_label>
+	<lang_label id="LL_NORTHERN_EUROPE">
+		<ll_def lang="en" value="Northern Europe" />
+		<ll_def lang="fr" value="Nord Europa" />
+		<ll_def lang="ru" value="Северная Европа" />
+	</lang_label>
+	<lang_label id="LL_NORTH_AMERICA">
+		<ll_def lang="en" value="North America" />
+		<ll_def lang="fr" value="Amérique du Nord" />
+		<ll_def lang="ru" value="Северная Америка" />
+	</lang_label>
+	<lang_label id="LL_SOUTHERN_EUROPE">
+		<ll_def lang="en" value="Southern Europe" />
+		<ll_def lang="fr" value="Suthern Europa" />
+		<ll_def lang="ru" value="Южная Европа" />
+	</lang_label>
+	<lang_label id="LL_SOUTH_AMERICA">
+		<ll_def lang="en" value="South America" />
+		<ll_def lang="fr" value="Amérique du Sud" />
+		<ll_def lang="ru" value="Южная Америка" />
+	</lang_label>
+	<lang_label id="LL_WESTERN_EUROPE">
+		<ll_def lang="en" value="Western Europe" />
+		<ll_def lang="fr" value="Western Europa" />
+		<ll_def lang="ru" value="Западная Европа" />
+	</lang_label>
+
+</ll_set>

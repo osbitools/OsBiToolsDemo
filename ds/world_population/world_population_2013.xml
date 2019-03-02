@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ds xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.osbitools.com/xsd/ds.xsd" ver_max="1" ver_min="0" descr="undefined">
+	<lang_map>
+		<column name="CONTINENT" />
+	</lang_map>
+	<static_data>
+		<columns>
+			<column name="CONTINENT" java_type="java.lang.String" />
+			<column name="POPULATION" java_type="java.lang.Long" />
+		</columns>
+		<static_rows>
+			<row>
+				<cell name="CONTINENT" value="LL_ASIA" />
+				<cell name="POPULATION" value="4298723000" />
+			</row>
+			<row>
+				<cell name="CONTINENT" value="LL_AFRICA" />
+				<cell name="POPULATION" value="1110635000" />
+			</row>
+			<row>
+				<cell name="CONTINENT" value="LL_EUROPE" />
+				<cell name="POPULATION" value="742452000" />
+			</row>
+			<row>
+				<cell name="CONTINENT" value="LL_NORTH_AMERICA" />
+				<cell name="POPULATION" value="565265000" />
+			</row>
+			<row>
+				<cell name="CONTINENT" value="LL_SOUTH_AMERICA" />
+				<cell name="POPULATION" value="406740000" />
+			</row>
+			<row>
+				<cell name="CONTINENT" value="LL_AUSTRALIA" />
+				<cell name="POPULATION" value="38304000" />
+			</row>
+			<row>
+				<cell name="CONTINENT" value="LL_ANTARTICA" />
+				<cell name="POPULATION" value="4490" />
+			</row>
+		</static_rows>
+	</static_data>
+</ds>

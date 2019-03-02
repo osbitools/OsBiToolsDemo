@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ll_set xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.osbitools.com/xsd/ll_set.xsd" ver_max="1" ver_min="0" lang_list="en,fr,ru">
+
+	<lang_label id="LX_10DAYS_MAVG">
+		<ll_def lang="en" value="10 days Moving Average" />
+		<ll_def lang="fr" value="10 jours Moyenne Mobile" />
+		<ll_def lang="ru" value="10 дней Скользящее Среднее" />
+	</lang_label>
+	<lang_label id="LX_10D_MAVG">
+		<ll_def lang="en" value="5 Days Avg" />
+		<ll_def lang="fr" value="10 Jours Avg" />
+		<ll_def lang="ru" value="10 дней сред." />
+	</lang_label>
+	<lang_label id="LX_5DAYS_MAVG">
+		<ll_def lang="en" value="5 days Moving Average" />
+		<ll_def lang="fr" value="5 jours Moyenne Mobile" />
+		<ll_def lang="ru" value="5 дней Скользящее Среднее" />
+	</lang_label>
+	<lang_label id="LX_5D_MAVG">
+		<ll_def lang="en" value="5 Days Avg" />
+		<ll_def lang="fr" value="5 Jours Avg" />
+		<ll_def lang="ru" value="5 дней сред." />
+	</lang_label>
+	<lang_label id="LX_APPLE_PAGE_TITLE">
+		<ll_def lang="en" value="Apple Stock Dashboard (Jan 2015)" />
+		<ll_def lang="fr" value="Apple Stock Dashboard (Jan 2015)" />
+		<ll_def lang="ru" value="Apple Информационная Доска (Янв 2015)" />
+	</lang_label>
+	<lang_label id="LX_CANDLE_STICK">
+		<ll_def lang="en" value="OHLC" />
+		<ll_def lang="fr" value="OHLC" />
+		<ll_def lang="ru" value="OHLC" />
+	</lang_label>
+	<lang_label id="LX_CLOSED_PPRICE">
+		<ll_def lang="en" value="Closed Price" />
+		<ll_def lang="fr" value="Prix Fermé" />
+		<ll_def lang="ru" value="Цена Закрытия" />
+	</lang_label>
+	<lang_label id="LX_DATE">
+		<ll_def lang="en" value="Date" />
+		<ll_def lang="fr" value="Par date" />
+		<ll_def lang="ru" value="Дата" />
+	</lang_label>
+	<lang_label id="LX_MOVING_AVG">
+		<ll_def lang="en" value="Moving Average" />
+		<ll_def lang="fr" value="Moyenne Mobile" />
+		<ll_def lang="ru" value="Скользящее Среднее" />
+	</lang_label>
+	<lang_label id="LX_OHLC_CLOSE">
+		<ll_def lang="en" value="Close" />
+		<ll_def lang="fr" value="Close" />
+		<ll_def lang="ru" value="Close" />
+	</lang_label>
+	<lang_label id="LX_OHLC_HIGH">
+		<ll_def lang="en" value="High" />
+		<ll_def lang="fr" value="High" />
+		<ll_def lang="ru" value="High" />
+	</lang_label>
+	<lang_label id="LX_OHLC_LOW">
+		<ll_def lang="en" value="Low" />
+		<ll_def lang="fr" value="Low" />
+		<ll_def lang="ru" value="Low" />
+	</lang_label>
+	<lang_label id="LX_OHLC_OPEN">
+		<ll_def lang="en" value="Open" />
+		<ll_def lang="fr" value="Open" />
+		<ll_def lang="ru" value="Open" />
+	</lang_label>
+	<lang_label id="LX_PRICE">
+		<ll_def lang="en" value="Price" />
+		<ll_def lang="fr" value="Prix" />
+		<ll_def lang="ru" value="Цена" />
+	</lang_label>
+	<lang_label id="LX_RAW_DATA">
+		<ll_def lang="en" value="Historical Data" />
+		<ll_def lang="fr" value="Date Historitsal" />
+		<ll_def lang="ru" value="Временные данные" />
+	</lang_label>
+	<lang_label id="LX_VOLUME">
+		<ll_def lang="en" value="Volume" />
+		<ll_def lang="fr" value="Volume" />
+		<ll_def lang="ru" value="Объем" />
+	</lang_label>
+	<lang_label id="LX_VOLUME_TITLE">
+		<ll_def lang="en" value="Volume" />
+		<ll_def lang="fr" value="Volume" />
+		<ll_def lang="ru" value="Объем" />
+	</lang_label>
+	<lang_label id="LX_VOLUME_MSHORT">
+		<ll_def lang="en" value="Volume, millions" />
+		<ll_def lang="fr" value="Volume, des millions" />
+		<ll_def lang="ru" value="Объем, млн." />
+	</lang_label>
+
+</ll_set>
